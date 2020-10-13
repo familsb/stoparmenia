@@ -2737,7 +2737,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 @media only screen and (min-width: 768px) {
   .grid:not(.grid_filtered) .grid__item_fluid-3-fancy:nth-of-type(3) {
-    margin-top: 6vw;
+    /*margin-top: 6vw;*/
   }
 }
 
