@@ -12275,3 +12275,6 @@ small, .small {
   border: 1px solid white!important;
   color: white!important;
 }
+.padding-80 {
+  padding-bottom: 80%!important;
+}
