@@ -12258,3 +12258,20 @@ small, .small {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.no-overflow * {
+  overflow: visible!important;
+}
+
+.link-btn {
+  font-size: 40px;
+  font-weight: 100;
+  border: 1px solid #c1c1c1!important;
+  color: #c1c1c1!important;
+  padding: 16px 33px;
+  border-radius: 50%;
+}
+.link-btn:hover {
+  border: 1px solid white!important;
+  color: white!important;
+}
