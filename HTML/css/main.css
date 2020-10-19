@@ -5680,7 +5680,7 @@ body.elementor-editor-active [data-arts-os-animation] {
     }
     .section-demo__bg_wide_center.section-demo__small_full .lazy-bg {
         background-size: contain!important;
-        background-position-y: bottom!important;
+        /*background-position-y: bottom!important;*/
     }
 
     .section-demo__content.section-demo__content_centered {
