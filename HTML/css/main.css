@@ -12690,3 +12690,7 @@ small, .small {
     font-weight: bold!important;
     color: #ff5b56 !important;
 }
+
+.footer-text{
+    color: #ffffff;
+}

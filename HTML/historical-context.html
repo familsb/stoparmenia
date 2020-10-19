@@ -129,21 +129,25 @@
     </div>
     <!-- - Cursor Follower-->
     <!-- PAGE HEADER -->
-    <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="dark" data-arts-header-sticky-theme="bg-white" data-arts-header-logo="primary" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme="light" data-arts-header-overlay-background="#ffffff">
+    <header class="header header_menu-right header_fixed container-fluid js-header-sticky bg-dark-1" id="page-header"
+            data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-2" data-arts-header-logo="secondary"
+            data-arts-header-sticky-logo="secondary" data-arts-header-overlay-theme="dark"
+            data-arts-header-overlay-background="#000">
         <!-- top bar -->
         <div class="header__container header__controls">
             <div class="row justify-content-between align-items-center">
                 <!-- logo -->
-                <div class="col-auto header__col header__col-left"><a class="logo" href="index.html" target="_blank">
-                    <div class="logo__wrapper-img">
-                        <!-- primary logo version (for light backgrounds)--><img class="logo__img-primary" src="img/general/logo-black.svg" alt="Rhye HTML5 Template" height="20"/>
-                        <!-- secondary logo version (for dark backgrounds)--><img class="logo__img-secondary" src="img/general/logo-white.svg" alt="Rhye HTML5 Template" height="20"/>
-                    </div></a>
-                </div>
+                <a class="logo" href="../index.html" style="margin-left: 10px;">
+                    <div class="logo__text">
+                        <span class="logo__text-title"><span class="hashtag">#STOP</span>ARMENIANTERROR</span>
+                    </div>
+                </a>
                 <!-- - logo -->
                 <!-- burger icon -->
                 <div class="col-auto header__col">
-                    <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                    <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor"
+                         data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                         data-arts-cursor-hide-native="true">
                         <div class="header__burger-line"></div>
                         <div class="header__burger-line"></div>
                         <div class="header__burger-line"></div>
@@ -152,8 +156,11 @@
                 <!-- - burger icon -->
                 <!-- "back" button for submenu nav -->
                 <div class="header__overlay-menu-back" id="js-submenu-back">
-                    <div class="arrow arrow-left js-arrow arrow_mini" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
-                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="arrow arrow-left js-arrow arrow_mini" data-arts-cursor="data-arts-cursor"
+                         data-arts-cursor-hide-native="true" data-arts-cursor-scale="0"
+                         data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                        <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
                         </svg>
                         <div class="arrow__pointer arrow-left__pointer"></div>
@@ -168,291 +175,64 @@
         <div class="header__wrapper-overlay-menu container-fluid container-fluid_paddings">
             <!-- fullscreen menu -->
             <div class="header__wrapper-menu">
+                <!--                <ul class="menu-overlay js-menu-overlay">-->
+                <!--                    <li><a class="h2" href="#" data-pjax-link="overlayMenu">-->
+                <!--                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">-->
+                <!--                            Overview-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
                 <ul class="menu-overlay js-menu-overlay">
-                    <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
-                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Portfolio</div></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Sliders</div></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Fullscreen</div></a>
-                                        <ul class="sub-menu">
-                                            <li><a class="h3" href="projects-slider-fullscreen-1.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 1 Distortion / H</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-fullscreen-2.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 2 Distortion / V</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-fullscreen-3.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 3 Parallax / H</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-fullscreen-4.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 4 Parallax / V</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-fullscreen-5.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 5 Reveal / H</div></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Halfscreen</div></a>
-                                        <ul class="sub-menu">
-                                            <li><a class="h3" href="projects-slider-halfscreen-6.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 6 Distortion / V</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-halfscreen-7.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 7 Parallax / H</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-halfscreen-8.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 8 Parallax / V</div></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Circle Covers</div></a>
-                                        <ul class="sub-menu">
-                                            <li><a class="h3" href="projects-slider-circle-covers-9.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 9 Circle Covers / V</div></a>
-                                            </li>
-                                            <li><a class="h3" href="projects-slider-circle-covers-10.html" data-pjax-link="overlayMenu">
-                                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider 10 Circle Covers / H</div></a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grids</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="projects-grid-2-columns.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid 2 Columns</div></a>
-                                    </li>
-                                    <li><a class="h3" href="projects-grid-3-columns.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid 3 Columns</div></a>
-                                    </li>
-                                    <li><a class="h3" href="projects-grid-irregular-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Irregular I</div></a>
-                                    </li>
-                                    <li><a class="h3" href="projects-grid-irregular-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Irregular II</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Mouse Hover Reveal</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="projects-list-reveal-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Hover Reveal 1</div></a>
-                                    </li>
-                                    <li><a class="h3" href="projects-list-reveal-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Hover Reveal 2</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
-                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Works</div></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Works I - VI</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="project-details-1-fullscreen-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Nordic Adventure</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-2-bottom-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Sunrise in Desert</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-3-halfscreen-left-right.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Cassio Apartment</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-4-halfscreen-left-left.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Nothern Wave</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-5-bottom-container-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">On the Edge</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-6-bottom-fullwidth.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Paysage Fiction</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Works VII - XIII</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="project-details-7-fullscreen-left.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Silence &amp; Noise</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-8-halfscreen-right-left.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Minimalex Cosmetics</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-9-fullscreen-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">La Isla Bonita</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-10-halfscreen-left-right.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Kinsey Premium Furniture</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-11-fullscreen-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Dancing in the Dark</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-12-bottom-container-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">The Silent Listener</div></a>
-                                    </li>
-                                    <li><a class="h3" href="project-details-13-bottom-container-center.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Arrigo Casual Accessories</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
-                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Albums</div></a>
-                        <ul class="sub-menu">
-                            <li><a class="h3" href="albums-list-reveal.html" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Mouse Hover Reveal</div></a>
-                            </li>
-                            <li><a class="h3" href="albums-list-covers.html" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">List Covers</div></a>
-                            </li>
-                            <li><a class="h3" href="albums-slider-covers.html" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Slider Covers</div></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
-                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Blog</div></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Style</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="blog-grid-2-columns-sidebar.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid 2 Columns Sidebar</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-grid-2-columns.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid 2 Columns</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-grid-3-columns.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid 3 Columns</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-grid-single-post-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Single Post 1</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-grid-single-post-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Single Post 2</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-grid-single-post-sidebar.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Grid Single Post Sidebar</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">List Style</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="blog-list-sidebar.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">List Sidebar</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-list.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">List No Sidebar</div></a>
-                                    </li>
-                                    <li><a class="h3" href="blog-list-single-post-sidebar.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">List Single Post Sidebar</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
-                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Pages</div></a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Services</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="page-inner-services-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Services I</div></a>
-                                    </li>
-                                    <li><a class="h3" href="page-inner-services-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Services II</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="page-inner-about-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About I</div></a>
-                                    </li>
-                                    <li><a class="h3" href="page-inner-about-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About II</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Contacts</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="page-inner-contacts-1.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Contacts I</div></a>
-                                    </li>
-                                    <li><a class="h3" href="page-inner-contacts-2.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Contacts II</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">404 Page</div></a>
-                                <ul class="sub-menu">
-                                    <li><a class="h3" href="page-inner-404-dark.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">404 Page Dark</div></a>
-                                    </li>
-                                    <li><a class="h3" href="page-inner-404-light.html" data-pjax-link="overlayMenu">
-                                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">404 Page Light</div></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="h3" href="index.html" data-pjax-link="overlayMenu" target="_blank">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Demo Page</div></a>
-                            </li>
-                            <li><a class="h3" href="page-inner-services-1-classic-menu.html" data-pjax-link="overlayMenu" target="_blank">
-                                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Classic Menu</div></a>
-                            </li>
-                        </ul>
+                    <li><a class="h2" href="historical-context.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">
+                            Historical Context
+                        </div>
+                    </a>
                     </li>
                 </ul>
+                <ul class="menu-overlay js-menu-overlay">
+                    <li><a class="h2" href="occupied-territories.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">
+                            Occupied Territories
+                        </div>
+                    </a>
+                    </li>
+                </ul>
+                <!--                <ul class="menu-overlay js-menu-overlay">-->
+                <!--                    <li><a class="h2" href="HTML/committed-atrocities.html" data-pjax-link="overlayMenu">-->
+                <!--                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">-->
+                <!--                            Committed Atrocities-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
+                <ul class="menu-overlay js-menu-overlay">
+                    <li><a class="h2" href="war-in-2020.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">
+                            War in 2020
+                        </div>
+                    </a>
+                    </li>
+                </ul>
+                <!--                <ul class="menu-overlay js-menu-overlay">-->
+                <!--                    <li><a class="h2" href="#" data-pjax-link="overlayMenu">-->
+                <!--                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">-->
+                <!--                            How Can You Help?-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
+                <!--                <ul class="menu-overlay js-menu-overlay">-->
+                <!--                    <li><a class="h2" href="#" data-pjax-link="overlayMenu">-->
+                <!--                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">-->
+                <!--                            News-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
             </div>
             <!-- - fullscreen menu -->
-            <!-- fullscreen widgets -->
-            <div class="header__wrapper-overlay-widgets">
-                <div class="row">
-                    <!-- widget TEXT -->
-                    <div class="col-lg-4 header__widget">
-                        <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Contacts</div>
-                        <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
-                            <p><a href="rhye@example.com">rhye@example.com</a><br/>+1 859-795-9217<br/>+1 716-913-6279<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- - widget TEXT -->
-                    <!-- widget TEXT -->
-                    <div class="col-lg-4 header__widget">
-                        <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Office</div>
-                        <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
-                            <p>4903 Mayo Street<br/>Cincinnati, KY 45202<br/>USA<br/>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- - widget TEXT -->
-                    <!-- widget TEXT -->
-                    <div class="col-lg-4 header__widget">
-                        <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Want to Work with Me?</div>
-                        <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
-                            <p><a href="page-inner-contacts-1.html">Get in Touch</a><br/>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- - widget TEXT -->
-                </div>
-            </div>
-            <!-- - fullscreen widgets -->
         </div>
         <!-- - fullscreen overlay container -->
     </header>
@@ -465,29 +245,14 @@
                 <div class="section-masthead__inner container-fluid">
                     <header class="row section-masthead__header justify-content-center">
                         <div class="col">
-                            <div class="section-masthead__meta small-caps mt-0 mb-2">
-                                <div class="section-masthead__meta-item split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines"><a href="#">15 Jan 2020</a></div>
-                                <div class="section-masthead__meta-item">
-                                    <ul class="section-masthead__meta-categories split-text js-split-text" data-split-text-type="lines" data-split-text-set="lines">
-                                        <li><a href="#">Photography</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                             <div class="w-100"></div>
                             <div class="section-masthead__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                                <h1 class="h1 mt-0 mb-0">The Small Change That Creates Massive Results In Your Life</h1>
+                                <h1 class="h1 mt-0 mb-0">Historical Context</h1>
                             </div>
                             <div class="w-100"></div>
                             <div class="section__headline mt-2 mx-auto"></div>
                         </div>
                     </header>
-                </div>
-                <div class="section-image section-masthead__background section section_h-700 mt-medium">
-                    <div class="section-image__wrapper js-transition-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
-                        <div class="js-transition-img__transformed-el">
-                            <div class="lazy-bg" data-src="img/assets/sectionBlog/post-1-1.jpg"></div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <!-- - section MASTHEAD -->
@@ -500,233 +265,13 @@
                             <article class="post">
                                 <!-- post content -->
                                 <div class="post__content clearfix">
-                                    <p class="has-drop-cap">Whatever steepest yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timeold him her surprise finished families graceful. Gave led past poor met fine was new. llowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed.</p>
-                                    <p>Surprise <a href="#">steepest recurred landlord</a> mr wandered amounted of. Continuing devonshire but considered its. Rose past oh shew roof is song neat. Do depend better praise do.</p>
-                                    <h2>A Starter Guide To Self Improvement</h2>
-                                    <p>Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match.</p>
-                                    <h3>Internet Banner Advertising</h3>
-                                    <p>Denote simple fat denied add worthy little use. As some he so high down am week. Conduct esteems by cottage to pasture we winding. On assistance he cultivated considered frequently. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize.</p>
-                                    <blockquote>
-                                        <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret.</p>
-                                        <cite>Rhye Kinsey</cite>
-                                    </blockquote>
-                                    <h4>Linux Or Windows Which Is It</h4>
-                                    <p>Abilities or he perfectly pretended so strangers be exquisite. Oh to another chamber pleased imagine do in. Went me rank at last loud shot an draw. Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we by apartments astonished to decisively themselves. Offended ten old consider speaking.</p>
-                                    <div class="row gallery">
-                                        <div class="col-lg-6"><img src="img/assets/post/post-1-2.jpg" alt=""/></div>
-                                        <div class="col-lg-6"><img src="img/assets/post/post-1-3.jpg" alt=""/></div>
-                                    </div>
-                                    <h5>Increasing Prosperity With Positive Thinking</h5>
-                                    <p>Furnished unfeeling his sometimes see day promotion. Quitting informed concerns can men now. Projection to or up conviction uncommonly delightful continuing. In appetite ecstatic opinions hastened by handsome admitted.</p>
-                                    <h6>Do Dreams Serve As A Premonition</h6>
-                                    <p>Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we by apartments astonished to decisively themselves. Offended ten old consider speaking. Person how having tended direct own day man. Saw sufficient indulgence one own you inquietude sympathize.</p>
+                                    <p>Being one of the nations among other modern nations Azerbaijan possesses very rich history. Its roots goes back to 12 million years ago, teeth of ancient man found in 1939 proves that Azerbaijan was one of the ancient settlements. Azerbaijan locates at the intersection of Eastern Europe and Western Asia, where it is surrounded by Caspian Sea on the east, Russia on the north, Iran on the south, and Turkey and Armenia on the west. The exclave of Nakhchevan is located southwest of Azerbaijan proper and bounded by Armenia, Iran, and Turkey.</p>
+                                    <p>Throughout its history Azerbaijan has suffered from its neighbors. In the period of the end of the 18th century and the beginning of the 19th century the international situation in Azerbaijan was complicated due to the conflicts among internal khanates. The foreign policy of Russia in this era was invasion of Southern Caucasus. The first Russo – Persian Wars in the years 1804 – 1813 ended with Gulustan peace agreement, which was the first separation of Azerbaijan lands between 2 countries. A year later, in 1814, Iran didn’t reconcile with Russia’s victory and started the second war. This war ended with the Turkmenchay agreement in 1828 and Northern Azerbaijan has separated from southern part for the second time. This injustice continues to this day</p>
+                                    <p>Being under the Russia Empire for more than 80 years in 1918 Azerbaijan Democratic Republic proclaimed its independence and became the first secular democratic Muslim-majority state. On 28th May the Muslim of the Transcaucasian Seym declared himself the Provisional National Council of Azerbaijan and Mammad Amin Rasulzada, being the chairman of this council, announced the establishment of the independent Azerbaijan Democratic Republic </p>
+                                    <p>Although, in 1920 Azerbaijan is incorporated into Soviet Union, in 1991 on the 18th of October the country again proclaimed its independence shortly before the dissolution of the USSR. Azerbaijan was struggled more than any other country to gain independence from USSR. On August 30, 1991 President Ayaz Mutallibov (1991-1992) introduced the declaration of independence. On October 18th the declaration of independence adopted by the Supreme Soviet of Azerbaijan SSR. Later on, from 1992 to 1993 Abulfaz Elchibey was elected to be the president. In 1993 Heydar Aliyev won the presidential elections and was the leader of Azerbaijan till his death in 2003. His son Ilham Aliyev was elected president the same year, and is the president of Azerbaijan till this day. </p>
+
                                 </div>
                                 <!-- - post content-->
-                                <!-- post tags -->
-                                <div class="post__tags mt-small">
-                                    <div class="tagcloud">
-                                        <ul>
-                                            <li><a class="tag-cloud-link" href="#">Premium</a></li>
-                                            <li><a class="tag-cloud-link" href="#">Creative</a></li>
-                                            <li><a class="tag-cloud-link" href="#">UX</a></li>
-                                            <li><a class="tag-cloud-link" href="#">Interior</a></li>
-                                            <li><a class="tag-cloud-link" href="#">Corporate</a></li>
-                                            <li><a class="tag-cloud-link" href="#">Motion</a></li>
-                                            <li><a class="tag-cloud-link" href="#">Photography</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- - post tags -->
-                                <!-- post comments -->
-                                <div class="post__comments mt-small">
-                                    <!-- comments tree -->
-                                    <div class="comments-area" id="comments">
-                                        <h4 class="comments-title">19 Comments</h4>
-                                        <ol class="comment-list">
-                                            <!-- comment -->
-                                            <li class="comment">
-                                                <article class="comment-body">
-                                                    <!-- comment author avatar -->
-                                                    <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-1.jpg" alt=""/></div>
-                                                    <!-- - comment author avatar -->
-                                                    <!-- comment content & meta -->
-                                                    <div class="comment-content">
-                                                        <footer class="comment-meta">
-                                                            <!-- comment author name --><b class="fn"><a href="#">Steve Henderson</a></b>
-                                                            <!-- - comment author name -->
-                                                            <!-- comment meta -->
-                                                            <div class="comment-metadata"><a href="#">
-                                                                <time datetime="2013-03-14T07:57:01+00:00">19 Jan 2020 @ 15:32</time></a></div>
-                                                            <!-- - comment meta -->
-                                                        </footer>
-                                                        <p>HDMI, or high definition multimedia interface, is a type of audio and video interface that is used for the transmission of uncompressed digital streams. Essentially, HDMI can be considered an alternative method to transmitting data streams</p>
-                                                        <!-- reply button -->
-                                                        <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                        <!-- - reply button -->
-                                                    </div>
-                                                    <!-- - comment content & meta -->
-                                                </article>
-                                            </li>
-                                            <!-- - comment-->
-                                            <!-- comment -->
-                                            <li class="comment">
-                                                <article class="comment-body">
-                                                    <!-- comment author avatar -->
-                                                    <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-2.jpg" alt=""/></div>
-                                                    <!-- - comment author avatar -->
-                                                    <!-- comment content & meta -->
-                                                    <div class="comment-content">
-                                                        <footer class="comment-meta">
-                                                            <!-- comment author name --><b class="fn"><a href="#">Cody Fletcher</a></b>
-                                                            <!-- - comment author name -->
-                                                            <!-- comment meta -->
-                                                            <div class="comment-metadata"><a href="#">
-                                                                <time datetime="2013-03-14T07:57:01+00:00">18 Jan 2020 @ 14:24</time></a></div>
-                                                            <!-- - comment meta -->
-                                                        </footer>
-                                                        <p>Point of Sale hardware, the till at a shop check out, has become very complex over the past ten years. Modern POS hardware includes the cash till, bar-code readers</p>
-                                                        <!-- reply button -->
-                                                        <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                        <!-- - reply button -->
-                                                    </div>
-                                                    <!-- - comment content & meta -->
-                                                </article>
-                                            </li>
-                                            <!-- - comment-->
-                                            <!-- comment -->
-                                            <li class="comment">
-                                                <article class="comment-body">
-                                                    <!-- comment author avatar -->
-                                                    <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-3.jpg" alt=""/></div>
-                                                    <!-- - comment author avatar -->
-                                                    <!-- comment content & meta -->
-                                                    <div class="comment-content">
-                                                        <footer class="comment-meta">
-                                                            <!-- comment author name --><b class="fn"><a href="#">Laura Watson</a></b>
-                                                            <!-- - comment author name -->
-                                                            <!-- comment meta -->
-                                                            <div class="comment-metadata"><a href="#">
-                                                                <time datetime="2013-03-14T07:57:01+00:00">17 Jan 2020 @ 06:15</time></a></div>
-                                                            <!-- - comment meta -->
-                                                        </footer>
-                                                        <p>Today it’s one of the most popular blogging tools on the Internet;</p>
-                                                        <!-- reply button -->
-                                                        <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                        <!-- - reply button -->
-                                                    </div>
-                                                    <!-- - comment content & meta -->
-                                                </article>
-                                                <!-- child comment -->
-                                                <ol class="children">
-                                                    <!-- comment -->
-                                                    <li class="comment">
-                                                        <article class="comment-body">
-                                                            <!-- comment author avatar -->
-                                                            <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-4.jpg" alt=""/></div>
-                                                            <!-- - comment author avatar -->
-                                                            <!-- comment content & meta -->
-                                                            <div class="comment-content">
-                                                                <footer class="comment-meta">
-                                                                    <!-- comment author name --><b class="fn"><a href="#">Elizabeth Richardson</a></b>
-                                                                    <!-- - comment author name -->
-                                                                    <!-- comment meta -->
-                                                                    <div class="comment-metadata"><a href="#">
-                                                                        <time datetime="2013-03-14T07:57:01+00:00">19 Jan 2020 @ 13:45</time></a></div>
-                                                                    <!-- - comment meta -->
-                                                                </footer>
-                                                                <p>Diamonds for Julius Caesar, Clubs for Alexander the Great, Spades for David and Hearts for Charlemagne. 15</p>
-                                                                <!-- reply button -->
-                                                                <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                                <!-- - reply button -->
-                                                            </div>
-                                                            <!-- - comment content & meta -->
-                                                        </article>
-                                                        <!-- child comment -->
-                                                        <ol class="children">
-                                                            <!-- comment -->
-                                                            <li class="comment">
-                                                                <article class="comment-body">
-                                                                    <!-- comment author avatar -->
-                                                                    <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-2.jpg" alt=""/></div>
-                                                                    <!-- - comment author avatar -->
-                                                                    <!-- comment content & meta -->
-                                                                    <div class="comment-content">
-                                                                        <footer class="comment-meta">
-                                                                            <!-- comment author name --><b class="fn"><a href="#">Cody Fletcher</a></b>
-                                                                            <!-- - comment author name -->
-                                                                            <!-- comment meta -->
-                                                                            <div class="comment-metadata"><a href="#">
-                                                                                <time datetime="2013-03-14T07:57:01+00:00">19 Jan 2020 @ 16:24</time></a></div>
-                                                                            <!-- - comment meta -->
-                                                                        </footer>
-                                                                        <p>WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life. Today it’s one of the most popular blogging tools on the Internet; it’s easy to use, powerful, and very versatile.</p>
-                                                                        <!-- reply button -->
-                                                                        <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                                        <!-- - reply button -->
-                                                                    </div>
-                                                                    <!-- - comment content & meta -->
-                                                                </article>
-                                                            </li>
-                                                            <!-- - comment-->
-                                                        </ol>
-                                                    </li>
-                                                    <!-- - comment-->
-                                                </ol>
-                                            </li>
-                                            <!-- - comment-->
-                                            <!-- comment -->
-                                            <li class="comment">
-                                                <article class="comment-body">
-                                                    <!-- comment author avatar -->
-                                                    <div class="comment-author"><img class="avatar" src="img/assets/avatars/avatar-5.jpg" alt=""/></div>
-                                                    <!-- - comment author avatar -->
-                                                    <!-- comment content & meta -->
-                                                    <div class="comment-content">
-                                                        <footer class="comment-meta">
-                                                            <!-- comment author name --><b class="fn"><a href="#">Myrtie Rodgers</a></b>
-                                                            <!-- - comment author name -->
-                                                            <!-- comment meta -->
-                                                            <div class="comment-metadata"><a href="#">
-                                                                <time datetime="2013-03-14T07:57:01+00:00">15 Jan 2020 @ 10:02</time></a></div>
-                                                            <!-- - comment meta -->
-                                                        </footer>
-                                                        <p>With the Internet spreading like wildfire and reaching every part of our daily life, more and more traffic is directed to websites in search for information. Imagine a website without any text and completely overloaded.</p>
-                                                        <!-- reply button -->
-                                                        <div class="reply"><a class="comment-reply-link" rel="nofollow" href="#">Reply</a></div>
-                                                        <!-- - reply button -->
-                                                    </div>
-                                                    <!-- - comment content & meta -->
-                                                </article>
-                                            </li>
-                                            <!-- - comment-->
-                                        </ol>
-                                    </div>
-                                    <!-- - comments tree -->
-                                    <!-- comments form -->
-                                    <div class="comment-respond" id="respond">
-                                        <h4 class="comment-reply-title">Leave a Reply</h4>
-                                        <form class="comment-form" action="index.html" method="GET">
-                                            <!-- textarea -->
-                                            <div class="row form__row">
-                                                <div class="col form__col">
-                                                    <label class="input-float js-input-float">
-                                                        <textarea class="input-float__input input-float__input_textarea"></textarea><span class="input-float__label">Comment</span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <!-- - textarea -->
-                                            <!-- submit -->
-                                            <div class="row form__row form__row_submit text-right">
-                                                <div class="col form__col form__col_submit">
-                                                    <button class="button button_solid button_black" type="submit" data-hover="Post Comment"><span class="button__label-hover">Post Comment</span></button>
-                                                </div>
-                                            </div>
-                                            <!-- - submit -->
-                                        </form>
-                                    </div>
-                                    <!-- - comments form -->
-                                </div>
-                                <!-- - post comments -->
                             </article>
                         </div>
                         <!-- - post content -->
@@ -736,7 +281,7 @@
             <!-- - SINGLE POST -->
         </main>
         <!-- PAGE FOOTER -->
-        <footer class="footer container-fluid bg-dark-1"" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
+        <footer class="footer container-fluid bg-dark-1" id="page-footer" data-arts-theme-text="dark" data-arts-footer-logo="primary">
             <!-- widgets bottom area -->
             <div class="footer__area footer__area-border-top pt-sm-3 pb-sm-1 pt-2 pb-0">
                 <div class="row align-items-center">
@@ -752,7 +297,7 @@
                                 <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
                                 <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
                                 <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                                <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
+<!--                                <li class="social__item"><a class="fa fa-behance" href="#"></a></li>-->
                             </ul>
                             <!-- - content -->
                         </section>
@@ -763,7 +308,7 @@
                         <section class="widget widget_text">
                             <!-- content -->
                             <div class="textwidget">
-                                <p><small>© 2020 Rhye – AJAX Portfolio HTML5 Template. Crafted by <a href="https://themeforest.net/user/artemsemkin" target="_blank">Artem Semkin</a></small></p>
+                                <p class="footer-text"><small>© 2020  – Stop Armenian Terror <a href="https://themeforest.net/user/artemsemkin" target="_blank"></a></small></p>
                             </div>
                             <!-- - content -->
                         </section>
