@@ -3229,8 +3229,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 /* ======================================================================== */
 .header {
     pointer-events: none;
-    padding-top: var(--gutter-vertical);
-    padding-bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .header a, .header select, .header input {
