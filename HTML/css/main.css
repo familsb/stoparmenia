@@ -3427,7 +3427,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
     .header__wrapper-menu {
         max-width: 100%;
-        margin-top: calc(var(--gutter-horizontal) * 2);
+        margin-top: calc(var(--gutter-horizontal) * 10);
         margin-bottom: calc(var(--gutter-horizontal) * 2);
     }
 
@@ -5711,9 +5711,8 @@ body.elementor-editor-active [data-arts-os-animation] {
 
     .section-demo__bg>div{
         transform-origin: 30% 0%!important;
-        height: 70%;
+        height: 65%;
         width:90%;
-        top:20px;
     }
 
     .section-demo__stacked-image:nth-child(1) {
