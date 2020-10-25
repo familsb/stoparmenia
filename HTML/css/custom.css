@@ -5,3 +5,15 @@
 .overlay_superdark {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+@media screen and (max-width: 767px) {
+  .mt-xs-1 {
+      margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mb-xs-1 {
+      margin-bottom: 1em;
+  }
+}
