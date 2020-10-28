@@ -17,3 +17,7 @@
       margin-bottom: 1em;
   }
 }
+.text_dark-2 {
+  color: var(--color-dark-2);
+}
+
